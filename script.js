@@ -3,7 +3,7 @@ const messageInput = document.getElementById('messageInput');
 const sendBtn = document.getElementById('sendBtn');
 
 // Replace with your Cloudflare Worker URL
-const BACKEND_URL = 'roadblocks.spc78787.workers.dev';
+const BACKEND_URL = 'https://roadblocks.spc78787.workers.dev/';
 
 async function fetchMessages() {
   try {
