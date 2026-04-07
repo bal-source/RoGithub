@@ -1,0 +1,40 @@
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f0f0f0;
+  padding: 20px;
+}
+
+#chatBox {
+  width: 100%;
+  height: 400px;
+  border: 1px solid #ccc;
+  overflow-y: scroll;
+  background-color: white;
+  padding: 10px;
+  margin-bottom: 10px;
+}
+
+#messageInput {
+  width: 80%;
+  padding: 5px;
+  font-size: 14px;
+}
+
+#sendBtn {
+  width: 18%;
+  padding: 5px;
+  font-size: 14px;
+}
+
+.message {
+  margin-bottom: 5px;
+}
+
+.playerName {
+  font-weight: bold;
+}
+
+.timestamp {
+  color: gray;
+  font-size: 0.8em;
+}
