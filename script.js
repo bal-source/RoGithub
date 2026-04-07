@@ -7,7 +7,7 @@ const BACKEND_URL = 'https://roadblocks.spc78787.workers.dev';
 
 async function fetchMessages() {
   try {
-    const res = await fetch(`${BACKEND_URL}messages`);
+    const res = await fetch(`${BACKEND_URL}/messages`);
     const data = await res.json();
 
     chatBox.innerHTML = '';
